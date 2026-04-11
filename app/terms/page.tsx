@@ -3,209 +3,120 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms and conditions governing your use of Sasha+.",
+  description: "The terms governing your use of Sasha+.",
 };
 
 export default function TermsPage() {
   return (
     <LegalPage title="Terms of Service" updated="April 11, 2026">
 
-      <h2>1. Agreement and Acceptance</h2>
       <p>
-        These Terms of Service ("Terms") govern your access to and use of the
-        Sasha+ mobile application ("App"). By creating an account or using the
-        App, you agree to be bound by these Terms.
+        These Terms of Service ("Terms") govern your use of the Sasha+ mobile
+        application. By creating an account or using the app, you agree to
+        these Terms.
       </p>
       <p>
-        <strong>Contact:</strong>{" "}
-        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a>
-      </p>
-
-      <h2>2. Eligibility</h2>
-      <p>
-        You must be at least 13 years old to use Sasha+. If you are between 13
-        and 18, you must have parental or guardian consent. By using the App,
-        you confirm you meet these requirements.
+        Questions? Email{" "}
+        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a>.
       </p>
 
-      <h2>3. Account Registration</h2>
+      <h2>Eligibility</h2>
       <p>
-        You are responsible for keeping your account credentials secure and for
-        all activity that occurs under your account. Notify us immediately at{" "}
-        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a> if you
-        suspect unauthorized access.
+        You must be at least 13 years old to use Sasha+. By using the app, you
+        confirm you meet this requirement.
       </p>
 
-      <h2>4. Subscriptions and In-App Purchases</h2>
-
-      <h3>4.1 Free Trial</h3>
+      <h2>Your Account</h2>
       <p>
-        If a free trial is offered, its length is displayed on the subscription
-        screen before you subscribe. Your subscription begins automatically at
-        the end of the trial unless you cancel beforehand.
+        You are responsible for keeping your login credentials secure and for
+        all activity under your account. Notify us immediately if you suspect
+        unauthorized access.
       </p>
 
-      <h3>4.2 Auto-Renewable Subscriptions</h3>
+      <h2>Subscriptions</h2>
       <p>
-        Sasha+ offers auto-renewable subscriptions (Monthly, Annual). By
-        subscribing, you authorize Apple to charge your Apple ID account at the
-        displayed price each billing period. To avoid renewal, cancel at least
-        24 hours before the current period ends via{" "}
-        <strong>iOS Settings → [your name] → Subscriptions → Sasha+</strong>.
+        Sasha+ offers auto-renewable subscriptions. Your subscription renews
+        automatically unless cancelled at least 24 hours before the end of the
+        current period via <strong>iOS Settings → [your name] → Subscriptions → Sasha+</strong>.
+        Cancellation takes effect at the end of the paid period — you are not
+        refunded for the remaining time.
       </p>
       <p>
-        Cancellation does not provide a refund for the current period. You
-        retain Pro access until the period ends.
-      </p>
-
-      <h3>4.3 Refunds</h3>
-      <p>
-        All purchases are processed by Apple. For refund requests, visit{" "}
+        All billing is handled by Apple. For refund requests, visit{" "}
         <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">
           reportaproblem.apple.com
-        </a>{" "}
-        or contact Apple Support. We do not control Apple&apos;s refund policy.
+        </a>
+        . To restore a previous subscription, use the Restore Purchases option
+        in the app's Settings screen.
       </p>
 
-      <h3>4.4 Restore Purchases</h3>
+      <h2>Your Content</h2>
       <p>
-        Use the &quot;Restore Purchases&quot; button in the App&apos;s Settings
-        screen to restore a previous subscription on a new device or after
-        reinstalling.
+        You own the recordings and content you create in the app. By using the
+        app, you grant us a limited licence to store and process your content
+        solely to provide the app's features to you. We will never use your
+        content to train AI models or share it with third parties beyond what
+        is needed to operate the service.
       </p>
 
-      <h2>5. License</h2>
+      <h2>Acceptable Use</h2>
       <p>
-        We grant you a limited, non-exclusive, non-transferable, revocable
-        license to use the App on your own devices for personal, non-commercial
-        purposes. You may not copy, reverse engineer, sell, or sublicense the App.
+        You agree to use the app lawfully and not to misuse, reverse engineer,
+        or attempt to circumvent any security features of the app.
       </p>
 
-      <h2>6. Your Content</h2>
-
-      <h3>6.1 Ownership</h3>
+      <h2>AI Coaching Disclaimer</h2>
       <p>
-        You retain ownership of all video recordings, audio, and other content
-        you create ("Your Content"). We claim no ownership over it.
+        AI-generated coaching feedback is for informational purposes only. It
+        is not a substitute for professional coaching, medical advice, or
+        physical therapy. We are not responsible for any injury or loss
+        resulting from reliance on AI feedback.
       </p>
 
-      <h3>6.2 License to Us</h3>
+      <h2>Termination</h2>
       <p>
-        By using the App, you grant us a limited, non-exclusive, royalty-free
-        license to store and process Your Content solely to provide App features
-        — including uploading recordings to Supabase, sending audio to Groq
-        Whisper for transcription, and sending text summaries to OpenAI for
-        coaching feedback. We will never use Your Content to train AI models.
+        You can delete your account at any time from within the app. We may
+        suspend accounts that violate these Terms. Deleting your account does
+        not automatically cancel your subscription — cancel separately in iOS
+        Settings.
       </p>
 
-      <h3>6.3 Your Responsibilities</h3>
+      <h2>Disclaimers and Liability</h2>
       <p>
-        You confirm you have rights to all content you record and that it does
-        not infringe any third-party rights or applicable laws.
+        The app is provided "as is" without warranties of any kind. To the
+        fullest extent permitted by law, our total liability for any claim
+        shall not exceed the amount you paid us in the 12 months prior to the
+        claim, or $50 USD, whichever is greater.
       </p>
 
-      <h2>7. Acceptable Use</h2>
+      <h2>Privacy</h2>
       <p>
-        You agree not to use the App to violate any law, record others without
-        consent where required, impersonate others, introduce malware, or
-        circumvent security features.
+        Our <a href="/privacy">Privacy Policy</a> is part of these Terms.
       </p>
 
-      <h2>8. AI-Generated Content Disclaimer</h2>
-      <div className="callout">
-        <p>
-          Coaching feedback generated by OpenAI&apos;s GPT models is for
-          informational and educational purposes only. It is{" "}
-          <strong>not</strong> a substitute for professional athletic coaching,
-          medical advice, or physical therapy. We are not responsible for any
-          injury or loss resulting from reliance on AI-generated feedback.
-        </p>
-      </div>
-
-      <h2>9. Intellectual Property</h2>
-      <p>
-        The App, its design, code, and content (excluding Your Content) are
-        owned by us or our licensors and protected by intellectual property law.
-        All rights not expressly granted are reserved.
-      </p>
-
-      <h2>10. Privacy</h2>
-      <p>
-        Our{" "}
-        <a href="/privacy">Privacy Policy</a> is incorporated into these Terms
-        by reference. By using the App, you consent to data collection and use
-        as described there.
-      </p>
-
-      <h2>11. Third-Party Services</h2>
-      <p>
-        The App integrates Supabase (backend), OpenAI (AI coaching), Groq
-        (transcription), RevenueCat (subscriptions), and Apple/Google
-        (authentication). Each is subject to its own terms and privacy policy.
-        We are not responsible for third-party services.
-      </p>
-
-      <h2>12. Termination</h2>
-      <p>
-        You may delete your account at any time via Settings → Delete Account.
-        This does not automatically cancel your subscription — cancel separately
-        in iOS Settings. We may suspend your account for violations of these Terms.
-      </p>
-
-      <h2>13. Disclaimers</h2>
-      <p>
-        THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND. WE DO NOT
-        WARRANT THAT THE APP WILL BE UNINTERRUPTED, ERROR-FREE, OR SECURE.
-        YOUR USE IS AT YOUR SOLE RISK.
-      </p>
-
-      <h2>14. Limitation of Liability</h2>
-      <p>
-        TO THE FULLEST EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY
-        INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES. OUR TOTAL
-        LIABILITY SHALL NOT EXCEED THE GREATER OF (A) AMOUNTS PAID BY YOU IN
-        THE PRIOR 12 MONTHS OR (B) $50 USD.
-      </p>
-
-      <h2>15. Indemnification</h2>
-      <p>
-        You agree to indemnify and hold us harmless from claims arising from
-        your use of the App, Your Content, or your violation of these Terms.
-      </p>
-
-      <h2>16. Governing Law</h2>
-      <p>
-        These Terms are governed by the laws of [State/Country]. Disputes will
-        be resolved through binding individual arbitration under AAA rules. You
-        may opt out within 30 days of first accepting these Terms by emailing{" "}
-        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a> with
-        subject "Arbitration Opt-Out."
-      </p>
-
-      <h2>17. Apple-Specific Disclosures</h2>
-      <p>
-        These Terms are between you and us, not Apple. Apple has no
-        responsibility for the App or its content and no obligation to provide
-        support. We are solely responsible for product liability, legal
-        compliance, and intellectual property claims relating to the App. Apple
-        and its subsidiaries are third-party beneficiaries of these Terms. You
-        warrant you are not in an embargoed country and not on any U.S.
-        prohibited parties list.
-      </p>
-
-      <h2>18. Changes to These Terms</h2>
+      <h2>Changes</h2>
       <p>
         We may update these Terms at any time. We will notify you of material
-        changes via in-app notice or email. Continued use after the effective
-        date constitutes acceptance.
+        changes via the app or email. Continued use after changes constitutes
+        acceptance.
       </p>
 
-      <h2>19. Contact</h2>
+      <h2>Apple</h2>
       <p>
-        <strong>Email:</strong>{" "}
+        These Terms are between you and us, not Apple. Apple has no
+        responsibility for the app or its content. Apple and its subsidiaries
+        are third-party beneficiaries of these Terms. You confirm you are not
+        located in an embargoed country or on any U.S. prohibited parties list.
+      </p>
+
+      <h2>Governing Law</h2>
+      <p>
+        These Terms are governed by the laws of Florida, United States.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
         <a href="mailto:support@sashaplus.app">support@sashaplus.app</a>
-        <br />
-        We respond within 30 days.
       </p>
 
     </LegalPage>
