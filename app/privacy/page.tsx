@@ -40,18 +40,19 @@ export default function PrivacyPage() {
 
       <h2>Third Parties</h2>
       <p>
-        We work with a small number of trusted service providers to operate the
-        app. These include cloud infrastructure, AI model providers, and
-        subscription management. Each provider is contractually required to
-        handle your data securely and only for the purposes we specify. We do
-        not share your data with anyone else.
+        We work with a small number of service providers to operate the app.
+        These include cloud infrastructure, AI model providers, and subscription
+        management. We do not share your data with anyone outside of what is
+        required to operate the service. Each provider has their own privacy
+        policy governing their data practices.
       </p>
 
       <h2>AI Coaching</h2>
       <p>
         To generate coaching feedback, text summaries of your sessions are
-        processed by a third-party AI model. Raw video files are never sent
-        externally. AI providers do not use your content to train their models.
+        sent to a third-party AI model. Raw video files are never sent
+        externally. Content sent to AI providers is used solely to generate
+        your coaching response.
       </p>
 
       <h2>Data Retention</h2>
@@ -86,8 +87,8 @@ export default function PrivacyPage() {
 
       <h2>Changes</h2>
       <p>
-        We may update this policy from time to time. We will notify you of
-        material changes via the app or email. Continued use after changes
+        We may update this policy from time to time. When we do, we will
+        update the date at the top of this page. Continued use after changes
         constitutes acceptance.
       </p>
 

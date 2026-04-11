@@ -54,9 +54,8 @@ export default function TermsPage() {
       <p>
         You own the recordings and content you create in the app. By using the
         app, you grant us a limited licence to store and process your content
-        solely to provide the app's features to you. We will never use your
-        content to train AI models or share it with third parties beyond what
-        is needed to operate the service.
+        solely to provide the app's features to you. We do not use your content
+        for any purpose other than operating the service.
       </p>
 
       <h2>Acceptable Use</h2>
@@ -96,8 +95,8 @@ export default function TermsPage() {
 
       <h2>Changes</h2>
       <p>
-        We may update these Terms at any time. We will notify you of material
-        changes via the app or email. Continued use after changes constitutes
+        We may update these Terms at any time. When we do, we will update the
+        date at the top of this page. Continued use after changes constitutes
         acceptance.
       </p>
 
