@@ -49,25 +49,23 @@ export default function PrivacyPage() {
 
       <h2>AI Coaching</h2>
       <p>
-        To generate coaching feedback, text summaries of your sessions are
-        sent to a third-party AI model. Raw video files are never sent
-        externally. Content sent to AI providers is used solely to generate
-        your coaching response.
+        To generate coaching feedback, we send text summaries of your sessions
+        to a third-party AI model. Raw video files are not sent to AI providers.
+        We send content to AI providers only to generate your coaching response.
       </p>
 
       <h2>Data Retention</h2>
       <p>
         We keep your data for as long as your account is active. You can delete
-        your account at any time from within the app (Settings → Delete
-        Account), which permanently removes all your recordings and personal
-        data from our systems.
+        your account at any time from within the app (Profile → Delete Account),
+        which removes your account and associated data from our systems.
       </p>
 
       <h2>Your Rights</h2>
       <p>
-        You can access, correct, or delete your personal data at any time.
-        Email us at{" "}
-        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a> and we
+        You can request access to, correction of, or deletion of your personal
+        data by contacting us at{" "}
+        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a>. We
         will respond within 30 days. California and EEA residents may have
         additional rights under applicable law — contact us to exercise them.
       </p>

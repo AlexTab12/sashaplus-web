@@ -46,8 +46,8 @@ export default function TermsPage() {
         <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">
           reportaproblem.apple.com
         </a>
-        . To restore a previous subscription, use the Restore Purchases option
-        in the app's Settings screen.
+        .         To restore a previous subscription, use the Restore Purchases option
+        within the app.
       </p>
 
       <h2>Your Content</h2>
