@@ -111,7 +111,7 @@ export default function TermsPage() {
 
       <h2>Governing Law</h2>
       <p>
-        These Terms are governed by the laws of Florida, United States.
+        These Terms are governed by the laws of New Brunswick, Canada.
       </p>
 
       <h2>Contact</h2>
