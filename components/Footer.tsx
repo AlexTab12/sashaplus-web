@@ -12,7 +12,7 @@ export default function Footer() {
             Sasha<span className="text-[#e8952a]">+</span>
           </span>
           <span className="text-[12px] text-white/30">
-            © {year} Sasha+. All rights reserved.
+            © {year} Alexander Tabachnik. All rights reserved.
           </span>
         </div>
 
