@@ -22,7 +22,7 @@ export default function TermsPage() {
 
       <h2>Eligibility</h2>
       <p>
-        You must be at least 13 years old to use Sasha+. By using the app, you
+        You must be at least 9 years old to use Sasha+. By using the app, you
         confirm you meet this requirement.
       </p>
 

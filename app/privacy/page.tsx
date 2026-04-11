@@ -73,8 +73,8 @@ export default function PrivacyPage() {
 
       <h2>Children</h2>
       <p>
-        Sasha+ is not intended for children under 13. We do not knowingly
-        collect data from anyone under 13.
+        Sasha+ is not intended for children under 9. We do not knowingly
+        collect data from anyone under 9.
       </p>
 
       <h2>Security</h2>
