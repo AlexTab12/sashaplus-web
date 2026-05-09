@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <LegalPage title="Privacy Policy" updated="April 11, 2026">
+    <LegalPage title="Privacy Policy" updated="May 9, 2026">
 
       <p>
         <strong>Who we are:</strong> Sasha+, operated by Alexander Tabachnik
@@ -28,8 +28,8 @@ export default function PrivacyPage() {
           sessions, stored in the cloud.
         </li>
         <li>
-          <strong>Coaching conversations</strong> — messages you send and
-          receive in the AI coaching chat.
+          <strong>AI conversations</strong> — messages you send and
+          receive in the assistant chat.
         </li>
         <li>
           <strong>Subscription status</strong> — whether you have an active
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
       <ul>
         <li>To provide and operate the app's features.</li>
         <li>
-          To generate personalised AI coaching feedback from your sessions.
+          To generate personalised AI feedback from your sessions.
         </li>
         <li>To manage your account and subscription.</li>
         <li>To diagnose and fix technical issues.</li>
@@ -73,36 +73,53 @@ export default function PrivacyPage() {
           database, and file storage.
         </li>
         <li>
-          <strong>OpenAI</strong> — processes text summaries of your sessions
-          to generate coaching responses. Raw video is not sent to OpenAI.
+          <strong>OpenAI</strong> — receives text summaries and transcripts of
+          your sessions to generate AI responses. Raw video is never sent
+          to OpenAI.
         </li>
         <li>
-          <strong>Groq</strong> — transcribes audio from your sessions to
-          text for coaching analysis.
+          <strong>Groq</strong> — receives audio from your sessions to produce
+          a text transcript used for AI analysis.
         </li>
         <li>
           <strong>RevenueCat</strong> — manages in-app subscription billing
           via Apple.
         </li>
+        <li>
+          <strong>Google</strong> — optional Sign in with Google
+          authentication. We receive a Google-generated user identifier and
+          email address solely to verify your identity.
+        </li>
       </ul>
       <p>
-        Each provider has their own privacy policy governing their data
+        Each provider maintains their own privacy policy governing their data
         practices.
       </p>
 
-      <h2>AI Coaching</h2>
+      <h2>AI Assistant</h2>
       <p>
-        We send text summaries of your sessions to third-party AI providers
-        only to generate your coaching response. Raw video files are not sent
-        to AI providers. We do not use your content to train AI models.
+        Audio from your sessions is sent to Groq for transcription. The
+        resulting transcript, along with a text summary of your session and any
+        messages you type in the assistant chat, is sent to OpenAI to generate
+        an AI response. Raw video files are never sent to either provider. We
+        do not use your content to train AI models.
       </p>
 
       <h2>Data Retention</h2>
       <p>
-        We keep your data for as long as your account is active. You can
-        delete your account at any time from within the app (Profile → Delete
-        Account), which removes your account and associated data from our
-        systems.
+        We retain your data for as long as your account is active:
+      </p>
+      <ul>
+        <li><strong>Video recordings</strong> — until you delete them or close your account.</li>
+        <li><strong>Transcripts and AI conversations</strong> — until you delete your account.</li>
+        <li><strong>Account information</strong> — until you delete your account.</li>
+        <li><strong>Subscription records</strong> — as required by Apple receipt verification.</li>
+        <li><strong>Crash logs</strong> — 30 days.</li>
+      </ul>
+      <p>
+        You can delete your account at any time from within the app (Profile →
+        Delete Account), which permanently removes your account and associated
+        data from our systems.
       </p>
 
       <h2>Your Choices</h2>
@@ -144,8 +161,11 @@ export default function PrivacyPage() {
 
       <h2>Children</h2>
       <p>
-        Sasha+ is rated 9+. We do not knowingly collect data from children
-        under 9.
+        Sasha+ is intended for users 13 and older. We do not knowingly collect
+        personal information from children under 13. If we learn that a child
+        under 13 has created an account, we will delete their data promptly.
+        If you believe this has occurred, contact us at{" "}
+        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a>.
       </p>
 
       <h2>Security</h2>

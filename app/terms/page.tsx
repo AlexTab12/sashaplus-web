@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <LegalPage title="Terms of Service" updated="April 11, 2026">
+    <LegalPage title="Terms of Service" updated="May 9, 2026">
 
       <p>
         <strong>Operator:</strong> Alexander Tabachnik (sole proprietor), New
@@ -27,8 +27,9 @@ export default function TermsPage() {
 
       <h2>2. Eligibility</h2>
       <p>
-        You must be at least 9 years old to use Sasha+. By using the app, you
-        confirm you meet this requirement.
+        You must be at least 13 years old to use Sasha+. By using the app, you
+        confirm you meet this requirement. If you are between 13 and 18, you
+        confirm you have the consent of a parent or legal guardian.
       </p>
 
       <h2>3. Your Account</h2>
@@ -95,12 +96,13 @@ export default function TermsPage() {
         your content for any purpose other than operating the service.
       </p>
 
-      <h2>7. AI Coaching Disclaimer</h2>
+      <h2>7. AI Feedback Disclaimer</h2>
       <p>
-        AI-generated coaching feedback is for informational purposes only. It
-        is not a substitute for professional coaching, medical advice, or
-        physical therapy. We are not responsible for any injury or loss
-        resulting from reliance on AI feedback.
+        AI-generated feedback is for informational and educational purposes
+        only. It is not a substitute for professional instruction, medical
+        advice, or physical therapy, and does not represent the opinion of a
+        qualified professional. We are not responsible for any injury or
+        loss resulting from reliance on AI-generated feedback.
       </p>
 
       <h2>8. Acceptable Use</h2>
@@ -135,10 +137,36 @@ export default function TermsPage() {
 
       <h2>12. Apple</h2>
       <p>
-        These Terms are between you and us, not Apple. Apple has no
-        responsibility for the app or its content. Apple and its subsidiaries
-        are third-party beneficiaries of these Terms. You confirm you are not
-        located in an embargoed country or on any U.S. prohibited parties list.
+        These Terms are between you and us, not Apple. Apple is not a party to
+        these Terms and is not responsible for the app or its content. Apple has
+        no obligation to furnish any maintenance or support services for the app.
+      </p>
+      <p>
+        In the event of any failure of the app to conform to any applicable
+        warranty, you may notify Apple and Apple will refund the purchase price
+        (if any) to you. To the maximum extent permitted by applicable law,
+        Apple has no other warranty obligation with respect to the app.
+      </p>
+      <p>
+        We, not Apple, are responsible for addressing any claims by you or any
+        third party relating to the app, including: (a) product liability
+        claims; (b) any claim that the app fails to conform to any applicable
+        legal or regulatory requirement; and (c) consumer protection or similar
+        claims.
+      </p>
+      <p>
+        In the event of any third-party claim that the app or your possession
+        and use of it infringes that third party's intellectual property rights,
+        we, not Apple, are solely responsible for the investigation, defense,
+        settlement, and discharge of that claim.
+      </p>
+      <p>
+        Apple and its subsidiaries are third-party beneficiaries of these Terms
+        and, upon your acceptance, Apple has the right to enforce these Terms
+        against you as a third-party beneficiary. You confirm you are not
+        located in a country subject to a U.S. Government embargo or designated
+        as a terrorist-supporting country, and you are not listed on any U.S.
+        Government prohibited or restricted parties list.
       </p>
 
       <h2>13. Governing Law</h2>
