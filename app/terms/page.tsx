@@ -8,12 +8,11 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <LegalPage title="Terms of Service" updated="May 9, 2026">
+    <LegalPage title="Terms of Service" updated="May 14, 2026">
 
       <p>
         <strong>Operator:</strong> Alexander Tabachnik (sole proprietor), New
-        Brunswick, Canada.
-        Contact:{" "}
+        Brunswick, Canada. Contact:{" "}
         <a href="mailto:support@sashaplus.app">support@sashaplus.app</a>
       </p>
 
@@ -34,9 +33,11 @@ export default function TermsPage() {
 
       <h2>3. Your Account</h2>
       <p>
-        You are responsible for keeping your login credentials secure and for
-        all activity under your account. Notify us immediately if you suspect
-        unauthorized access.
+        You are responsible for maintaining the confidentiality of your
+        credentials and for all activity that occurs under your account. Notify
+        us immediately at{" "}
+        <a href="mailto:support@sashaplus.app">support@sashaplus.app</a> if
+        you suspect unauthorized access.
       </p>
 
       <h2>4. Subscriptions and Billing</h2>
@@ -61,15 +62,20 @@ export default function TermsPage() {
         </li>
         <li>
           <strong>Free trial (if offered):</strong> Trials convert to a paid
-          plan unless cancelled at least 24 hours before the trial ends. Any
-          unused portion of a free trial is forfeited upon purchase.
+          subscription unless cancelled at least 24 hours before the trial
+          ends. Any unused portion is forfeited upon purchase.
         </li>
         <li>
-          <strong>Cancellation:</strong> Cancellation takes effect at the end
-          of the paid period — you are not refunded for the remaining time.
+          <strong>Cancellation:</strong> Takes effect at the end of the
+          current paid period. No refund is issued for the remaining time.
         </li>
         <li>
-          <strong>Refunds:</strong> All billing is handled by Apple. For
+          <strong>Restore Purchases:</strong> If you reinstall the app or
+          change devices, use the Restore Purchases option within the app to
+          restore your active subscription.
+        </li>
+        <li>
+          <strong>Refunds:</strong> All billing is processed by Apple. For
           refund requests, visit{" "}
           <a
             href="https://reportaproblem.apple.com"
@@ -82,100 +88,143 @@ export default function TermsPage() {
         </li>
       </ul>
 
-      <h2>5. Restore Purchases</h2>
+      <h2>5. Your Content</h2>
       <p>
-        If you reinstall the app or change devices, restore your active
-        subscription using the Restore Purchases option within the app.
+        You retain ownership of all recordings and content you create in the
+        app. By using the app, you grant us a limited, non-exclusive,
+        royalty-free licence to store and process your content solely to
+        provide the app&apos;s features to you. We do not use your content for
+        advertising, sale to third parties, or AI model training.
       </p>
 
-      <h2>6. Your Content</h2>
+      <h2>6. AI Feedback Disclaimer</h2>
       <p>
-        You own the recordings and content you create in the app. By using the
-        app, you grant us a non-exclusive licence to store and process your
-        content solely to provide the app's features to you. We do not use
-        your content for any purpose other than operating the service.
+        AI-generated feedback is provided for informational and educational
+        purposes only. It is not a substitute for professional coaching,
+        instruction, medical advice, or physical therapy, and does not
+        represent the opinion of a qualified professional. AI outputs may be
+        inaccurate, incomplete, or inapplicable to your specific circumstances.
+        We are not responsible for any injury, loss, or damage resulting from
+        reliance on AI-generated feedback.
       </p>
 
-      <h2>7. AI Feedback Disclaimer</h2>
+      <h2>7. Acceptable Use</h2>
+      <p>You agree to use the app lawfully and in accordance with these Terms. You must not:</p>
+      <ul>
+        <li>Record others without their consent where consent is legally required.</li>
+        <li>
+          Attempt to reverse engineer, decompile, or extract source code from
+          the app.
+        </li>
+        <li>
+          Attempt to circumvent any security, rate limiting, or access control
+          features.
+        </li>
+        <li>
+          Use the app in any way that damages, overburdens, or impairs our
+          systems.
+        </li>
+        <li>
+          Submit content that is illegal, harmful, threatening, or violates
+          third-party rights.
+        </li>
+      </ul>
       <p>
-        AI-generated feedback is for informational and educational purposes
-        only. It is not a substitute for professional instruction, medical
-        advice, or physical therapy, and does not represent the opinion of a
-        qualified professional. We are not responsible for any injury or
-        loss resulting from reliance on AI-generated feedback.
+        We may suspend or permanently terminate accounts that violate these
+        Terms without notice.
       </p>
 
-      <h2>8. Acceptable Use</h2>
+      <h2>8. Termination</h2>
       <p>
-        You agree to use the app lawfully and not to misuse, reverse engineer,
-        or attempt to circumvent any security features of the app. We may
-        suspend or terminate accounts that violate these Terms.
+        You may delete your account at any time via Profile → Delete Account
+        in the app. Deleting your account does not automatically cancel your
+        App Store subscription — cancel separately in iOS Settings.
+      </p>
+      <p>
+        We may suspend or terminate your access to the app at any time, with
+        or without notice, for violations of these Terms or for any other
+        reason at our discretion.
       </p>
 
-      <h2>9. Termination</h2>
+      <h2>9. Disclaimers</h2>
       <p>
-        You can delete your account at any time from within the app. Deleting
-        your account does not automatically cancel your subscription — cancel
-        separately in iOS Settings.
+        THE APP IS PROVIDED &ldquo;AS IS&rdquo; AND &ldquo;AS
+        AVAILABLE&rdquo; WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED,
+        INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+        PURPOSE, ACCURACY, OR NON-INFRINGEMENT. WE DO NOT WARRANT THE APP
+        WILL BE UNINTERRUPTED OR ERROR-FREE. YOUR USE IS AT YOUR SOLE RISK.
       </p>
 
-      <h2>10. Disclaimers and Liability</h2>
+      <h2>10. Limitation of Liability</h2>
       <p>
-        The app is provided "as is" and "as available" without warranties of
-        any kind. To the fullest extent permitted by law, we disclaim all
-        warranties and limit liability for indirect or consequential damages.
-        Our total liability for any claim shall not exceed the amount you paid
-        us in the 12 months prior to the claim.
+        TO THE FULLEST EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR
+        ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES,
+        INCLUDING LOSS OF DATA, PROFITS, OR GOODWILL. OUR TOTAL LIABILITY FOR
+        ALL CLAIMS SHALL NOT EXCEED THE GREATER OF (A) THE AMOUNTS YOU PAID
+        US IN THE TWELVE MONTHS PRECEDING THE CLAIM OR (B) $50 CAD.
       </p>
 
-      <h2>11. Changes</h2>
+      <h2>11. Time Limitation on Claims</h2>
+      <p>
+        Any claim arising out of or relating to these Terms or the app must be
+        brought within one (1) year of the date the claim arose. Claims not
+        brought within this period are permanently barred.
+      </p>
+
+      <h2>12. Indemnification</h2>
+      <p>
+        You agree to indemnify and hold us harmless from any claims, damages,
+        losses, and expenses (including reasonable legal fees) arising from
+        your use of the app, your content, or your violation of these Terms.
+      </p>
+
+      <h2>13. Changes</h2>
       <p>
         We may update these Terms at any time. For material changes, we will
         notify you in-app or by email. Continued use after changes constitutes
         acceptance.
       </p>
 
-      <h2>12. Apple</h2>
+      <h2>14. Apple</h2>
       <p>
         These Terms are between you and us, not Apple. Apple is not a party to
-        these Terms and is not responsible for the app or its content. Apple has
-        no obligation to furnish any maintenance or support services for the app.
+        these Terms and bears no responsibility for the app or its content.
+        Apple has no obligation to provide maintenance or support services.
       </p>
       <p>
-        In the event of any failure of the app to conform to any applicable
-        warranty, you may notify Apple and Apple will refund the purchase price
-        (if any) to you. To the maximum extent permitted by applicable law,
-        Apple has no other warranty obligation with respect to the app.
+        In the event the app fails to conform to any applicable warranty, you
+        may notify Apple and Apple will refund the purchase price (if any). To
+        the maximum extent permitted by law, Apple has no other warranty
+        obligation with respect to the app.
       </p>
       <p>
-        We, not Apple, are responsible for addressing any claims by you or any
-        third party relating to the app, including: (a) product liability
-        claims; (b) any claim that the app fails to conform to any applicable
-        legal or regulatory requirement; and (c) consumer protection or similar
-        claims.
-      </p>
-      <p>
-        In the event of any third-party claim that the app or your possession
-        and use of it infringes that third party's intellectual property rights,
-        we, not Apple, are solely responsible for the investigation, defense,
-        settlement, and discharge of that claim.
+        We, not Apple, are solely responsible for addressing claims relating to
+        the app, including product liability claims, regulatory compliance
+        claims, and consumer protection claims.
       </p>
       <p>
         Apple and its subsidiaries are third-party beneficiaries of these Terms
-        and, upon your acceptance, Apple has the right to enforce these Terms
-        against you as a third-party beneficiary. You confirm you are not
-        located in a country subject to a U.S. Government embargo or designated
-        as a terrorist-supporting country, and you are not listed on any U.S.
-        Government prohibited or restricted parties list.
+        and have the right to enforce them against you. You represent you are
+        not located in an embargoed country and are not on any U.S. Government
+        prohibited or restricted parties list.
       </p>
 
-      <h2>13. Governing Law</h2>
+      <h2>15. Severability</h2>
       <p>
-        These Terms are governed by the laws of New Brunswick, Canada. Venue
-        and jurisdiction lie in New Brunswick.
+        If any provision of these Terms is found invalid or unenforceable, it
+        will be modified to the minimum extent necessary, and the remaining
+        provisions will remain in full force and effect.
       </p>
 
-      <h2>14. Contact</h2>
+      <h2>16. Governing Law</h2>
+      <p>
+        These Terms are governed by the laws of the Province of New Brunswick
+        and the federal laws of Canada applicable therein. Any disputes will be
+        subject to the exclusive jurisdiction of the courts of New Brunswick,
+        Canada.
+      </p>
+
+      <h2>17. Contact</h2>
       <p>
         <a href="mailto:support@sashaplus.app">support@sashaplus.app</a>
       </p>
