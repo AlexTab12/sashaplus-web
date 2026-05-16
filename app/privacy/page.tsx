@@ -51,6 +51,11 @@ export default function PrivacyPage() {
           <strong>Push notification token</strong> — a device identifier
           issued by iOS used to deliver push notifications to your device.
         </li>
+        <li>
+          <strong>Crash and diagnostic data</strong> — information about app
+          crashes and errors, including device state at the time of the crash,
+          linked to your account and used to diagnose and fix issues.
+        </li>
       </ul>
       <p>
         <strong>We do not collect:</strong> precise or coarse location,
@@ -67,7 +72,7 @@ export default function PrivacyPage() {
           To send push notifications related to your subscription (such as
           trial reminders).
         </li>
-        <li>To understand how the app is used and improve it over time.</li>
+        <li>To understand how the app is used, diagnose crashes, and improve it over time.</li>
       </ul>
 
       <h2>Ads and Data Sharing</h2>
@@ -119,6 +124,11 @@ export default function PrivacyPage() {
           <strong>Google</strong> — optional Sign in with Google
           authentication. We receive a Google-generated identifier and your
           email address solely to verify your identity.
+        </li>
+        <li>
+          <strong>Crash reporting</strong> — receives crash logs and
+          diagnostic data linked to your account identifier to help us
+          identify and fix technical issues.
         </li>
       </ul>
       <p>
